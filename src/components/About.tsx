@@ -14,7 +14,7 @@ export default function About() {
           </h2>
           <p>Hi! I'm Zefanya Felicita Adithya, a Computer Science student at BINUS University with an interest in software development and technology. I enjoy building web and mobile applications and exploring how technology can turn ideas into practical solutions.</p>
           <p>I have experience with Laravel, React Native, TypeScript, MySQL, and Python, while also exploring Artificial Intelligence and Cloud Computing through academic projects. Outside of technology, I enjoy reading, watching movies, and Korean dramas in my free time. I also enjoy learning through hands-on projects, solving problems, and continuously improving my skills.</p>
-          <p>'m currently looking to grow as a software developer, gain hands-on experience through an internship, and contribute to real-world projects.</p>
+          <p>I'm currently looking to grow as a software developer, gain hands-on experience through an internship, and contribute to real-world projects.</p>
           <a className="btn pri" href={cvUrl} download style={{ marginTop: 12 }}>
             Download CV <span className="arr">↓</span>
           </a>
