@@ -18,7 +18,6 @@ import fp1 from '../assets/experience/fp-1.jpeg'
 import fp2 from '../assets/experience/fp-2.jpeg'
 import pmr1 from '../assets/experience/pmr-1.jpeg'
 import pmr2 from '../assets/experience/pmr-2.jpeg'
-import certImg1 from '../assets/experience/toefl.jpg'
 import po1 from '../assets/experience/po-1.jpeg'
 
 export const cvUrl = `${import.meta.env.BASE_URL}cv/Zefanya-Felicita-Adithya-CV.pdf`
@@ -238,7 +237,6 @@ export const experience: ExperienceItem[] = [
       'Credential ID: EV/TO9/09/2026/034938361',
       'Valid until September 2028',
     ],
-    gallery: [certImg1],
     skills: ['English', 'TOEFL ITP'],
     link: 'https://englishvit.com/certificate/status/EV-TO9-09-2026-034938361',
   },
