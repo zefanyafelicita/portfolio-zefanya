@@ -1,19 +1,9 @@
-import { useState, type FormEvent } from 'react'
 import { social } from '../data'
 import FloatingDecorations from './FloatingDecorations'
 import { SocialIcon } from './Icons'
 import Reveal from './Reveal'
 
 export default function Contact() {
-  const [msg, setMsg] = useState('')
-
-  const onSubmit = (e: FormEvent<HTMLElement>) => {
-    e.preventDefault()
-    // Demo only. Connect a form service or backend here to actually deliver messages.
-    setMsg('Thanks! Message noted (demo form, connect a backend to send).')
-    ;(e.currentTarget as HTMLFormElement).reset()
-  }
-
   return (
     <section id="contact">
       <div className="wrap">
@@ -45,9 +35,6 @@ export default function Contact() {
               <button className="btn pri" type="submit">
                 Send Message <span className="arr">→</span>
               </button>
-              <div id="msg" role="status">
-                {msg}
-              </div>
             </form>
           </Reveal>
         </div>
