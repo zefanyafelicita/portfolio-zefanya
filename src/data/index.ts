@@ -21,7 +21,7 @@ import pmr2 from '../assets/experience/pmr-2.jpeg'
 import certImg1 from '../assets/experience/toefl.jpg'
 import po1 from '../assets/experience/po-1.jpeg'
 
-export const cvUrl = `${import.meta.env.BASE_URL}cv/Zefanya-Felicita-Adithya-CV.pdf`
+export const cvUrl = `${import.meta.env.BASE_URL}cv/ZefanyaFelicitaAdithya_CV.pdf`
 
 export const sections: SectionLink[] = [
   { id: 'home', label: 'Home' },
