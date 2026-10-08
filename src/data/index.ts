@@ -19,6 +19,8 @@ import fp2 from '../assets/experience/fp-2.jpeg'
 import pmr1 from '../assets/experience/pmr-1.jpeg'
 import pmr2 from '../assets/experience/pmr-2.jpeg'
 import po1 from '../assets/experience/po-1.jpeg'
+import sololearnPython from '../assets/experience/sololearn-python.jpg'
+import oracleDatabase from '../assets/experience/oracle.jpg'
 
 export const cvUrl = `${import.meta.env.BASE_URL}cv/Zefanya-Felicita-Adithya-CV.pdf`
 
@@ -239,5 +241,67 @@ export const experience: ExperienceItem[] = [
     ],
     skills: ['English', 'TOEFL ITP'],
     link: 'https://englishvit.com/certificate/status/EV-TO9-09-2026-034938361',
+  },
+
+  {
+    group: 'Certifications',
+    type: 'Certification',
+    title: 'Introduction to Python',
+    organization: 'Sololearn',
+    date: 'Issued 12 Feb, 2025',
+    summary: 'Completed the Introduction to Python course, covering fundamental Python programming concepts.',
+    description: 'A course certification demonstrating theoretical and practical understanding of Python programming fundamentals.',
+    details: [
+      'Credential ID: CC-THBIX9GS',
+      'Issued: 12 February 2025',
+    ],
+    gallery: [sololearnPython],
+    skills: ['Python', 'Programming Fundamentals'],
+  },
+
+  {
+    group: 'Certifications',
+    type: 'Certification',
+    title: 'Databases for Developers: Foundations',
+    organization: 'Oracle Dev Gym',
+    date: 'Completed',
+    summary: 'Completed the Databases for Developers: Foundations course, covering fundamental database concepts for developers.',
+    description: 'A course completion certificate from Oracle Dev Gym focused on foundational database concepts for developers.',
+    details: [
+      'Course: Databases for Developers: Foundations',
+      'Instructor: Chris Saxon',
+      'Presented by: Oracle Corporation',
+    ],
+    gallery: [oracleDatabase],
+    skills: ['Database', 'SQL', 'Oracle'],
+    link: '',
+  },
+
+  {
+    group: 'Certifications',
+    type: 'Certification',
+    title: 'Google Cloud Computing Foundations Certificate',
+    organization: 'Google Cloud',
+    date: 'Issued 28 May, 2026',
+    summary: 'A foundational certificate demonstrating technical proficiency in cloud computing, including cloud infrastructure, networking, security, data, ML, and AI.',
+    description: 'Completed the Google Cloud Computing Foundations Certificate, covering fundamental concepts and practical skills across Google Cloud infrastructure, networking, security, data, machine learning, and AI.',
+    details: [
+      'Credential: Google Cloud Computing Foundations Certificate',
+      'Issued: 28 May 2026',
+      'Platform: Google Cloud',
+    ],
+    skills: [
+      'Cloud Computing',
+      'Google Cloud',
+      'Cloud Infrastructure',
+      'Cloud Storage',
+      'Compute Engine',
+      'BigQuery',
+      'Data & ML',
+      'Network Security',
+      'IAM',
+      'APIs',
+    ],
+    link: 'https://www.credly.com/badges/42768395-dbc8-48a7-86eb-7180f6a908c7/linked_in_profile',
   },
 ]
