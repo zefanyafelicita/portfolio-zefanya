@@ -1,14 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="24" fill="#FFF0A8"/>
-  <text
-    x="50"
-    y="63"
-    text-anchor="middle"
-    font-family="Arial, sans-serif"
-    font-size="42"
-    font-weight="700"
-    fill="#171717"
-  >
-    ZF
-  </text>
+<svg width="129" height="129" viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="128" height="128" rx="28" fill="#FFF0A8"/>
+<rect x="0.25" y="0.25" width="128" height="128" rx="28" stroke="black" stroke-opacity="0.49" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M27.25 41.25H100.25M62.25 41.25L27.25 87.25H62.25M77.25 41.25V87.25M45.25 64.25H99.25" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke="#493666"/>
+<path d="M91.25 13.25C93.05 17.45 96.05 20.45 100.25 22.25C96.05 24.05 93.05 27.05 91.25 31.25C89.45 27.05 86.45 24.05 82.25 22.25C86.45 20.45 89.45 17.45 91.25 13.25Z" fill="#493666" fill-opacity="0.86" stroke="#DED3F3" stroke-opacity="0.93"/>
 </svg>
