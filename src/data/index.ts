@@ -18,7 +18,8 @@ import fp1 from '../assets/experience/fp-1.jpeg'
 import fp2 from '../assets/experience/fp-2.jpeg'
 import pmr1 from '../assets/experience/pmr-1.jpeg'
 import pmr2 from '../assets/experience/pmr-2.jpeg'
-import po1 from '../assets/experience/po-1.jpeg'
+import po1 from '../assets/experience/po-1.jpg'
+import po2 from '../assets/experience/po-2.jpg'
 import sololearnPython from '../assets/experience/sololearn-python.jpg'
 import oracleDatabase from '../assets/experience/oracle.jpg'
 
@@ -222,7 +223,7 @@ export const experience: ExperienceItem[] = [
       'Helped identify, contact, and follow up with worship servants and event teams for weekly Friday worship services and annual events.',
       'Contributed creative ideas for worship services and fellowship events to support their planning and implementation.',
     ],
-    gallery: [po1],
+    gallery: [po1, po2],
     skills: ['Event Planning', 'Coordination', 'Creativity', 'Communication'],
   },
   
