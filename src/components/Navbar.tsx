@@ -17,7 +17,7 @@ export default function Navbar({ active }: { active: string }) {
     <header id="hd" className={small ? 'small' : ''}>
       <div className="pill">
         <a className="logo" href="#home">
-          zefanya.✦
+          zefanya.
         </a>
         <nav id="nav" className={open ? 'open' : ''}>
           <ul>

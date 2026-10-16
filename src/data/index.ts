@@ -7,6 +7,10 @@ import cancapImage from '../assets/cancapdetect.png'
 import cancapShot1 from '../assets/cancapdetect-1.png'
 import cancapShot2 from '../assets/cancapdetect-2.png'
 import cancapShot3 from '../assets/cancapdetect-3.png'
+import peakscoreImage from '../assets/peakscore.png'
+import peakscoreShot1 from '../assets/peakscore-1.png'
+import peakscoreShot2 from '../assets/peakscore-2.png'
+import peakscoreShot3 from '../assets/peakscore-3.png'
 import eduformImage from '../assets/eduform.png'
 import eduformShot1 from '../assets/eduform-1.png'
 import eduformShot2 from '../assets/eduform-2.png'
@@ -44,7 +48,7 @@ export const social: SocialLink[] = [
 export const projects: Project[] = [
   {
     title: 'Trimly',
-    category: 'Mobile Application',
+    category: 'Mobile Application – 2026',
     description:
       'A mobile salon booking app that helps users discover salons, explore services and hairstylists, and make appointments in one place.',
     tech: ['React Native', 'Expo', 'TypeScript', 'NativeWind', 'Laravel', 'MySQL'],
@@ -79,7 +83,7 @@ export const projects: Project[] = [
   },
   {
     title: 'CanCap Detect',
-    category: 'Artificial Intelligence | Computer Vision | Web Application',
+    category: 'Artificial Intelligence | Computer Vision | Web Application – 2026',
     description:
       'A web-based multi-label defect detection system for cans and bottle caps using YOLO-based computer vision.',
     tech: ['Python', 'YOLO', 'Roboflow', 'OpenCV', 'Flask', 'Laravel', 'SQLite'],
@@ -101,8 +105,56 @@ export const projects: Project[] = [
     features: ['Multi-label detection', 'Image & camera input', 'Model selection', 'Detection results', 'Detection history'],
   },
   {
+    title: 'PeakScore',
+    category: 'Web Application | Laravel | Database Management – 2026',
+    description:
+      'A web-based Academic Aptitude Test (TPA) management system that enables users to take aptitude tests and allows administrators to manage questions, participants, and test results.',
+    tech: [
+      'PHP',
+      'Laravel 12',
+      'MySQL',
+      'Blade',
+      'JavaScript',
+      'Tailwind CSS',
+    ],
+    contribution: [
+      'User authentication (login and sign-up)',
+      'Participant management feature development',
+      'Participant data handling and database integration',
+    ],
+    bg: '#DCEBFF',
+    image: peakscoreImage,
+    gallery: [
+      peakscoreShot1,
+      peakscoreShot2,
+      peakscoreShot3,
+    ],
+    buttons: [
+      {
+        label: 'GitHub Repository',
+        url: 'https://github.com/zefanyafelicita/PeakScore-Academic-Aptitude-Test-Management-System.git',
+      },
+      {label: 'Live Demo', url: 'https://drive.google.com/file/d/1WVSyZm5J59FU76ngRuKRC3v5qHBx6nEN/view?usp=sharing'},
+    ],
+    problem:
+      'Managing aptitude test questions, participant information, and test results manually can be time-consuming and difficult to organize.',
+    solution:
+      'A web-based TPA management system built with Laravel and MySQL that supports online aptitude tests, automated scoring, and centralized management of participants and test results.',
+    features: [
+      'User authentication',
+      'Role-based admin access',
+      'Question CRUD management',
+      'Verbal, Numerical, Logical, and Spatial tests',
+      'Automatic score calculation',
+      'Test history and results',
+      'Participant management',
+      'Search, sorting, and pagination',
+      'Test result statistics',
+    ],
+  },
+  {
     title: 'EduForm',
-    category: 'Training Registration Web Application',
+    category: 'Web Application – 2025',
     description: 'A web-based training registration platform designed to make technology training information and registration easier and more intuitive.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Figma'],
     contribution: ['UI/UX design', 'Front-end development', 'Form validation', 'User testing & improvements'],
@@ -112,7 +164,7 @@ export const projects: Project[] = [
     buttons: [
       { label: 'GitHub', url: 'https://github.com/zefanyafelicita/Project-HCI' },
       { label: 'Figma', url: 'https://www.figma.com/proto/CerdVUxP5wl2D28x79SxJV/EduForm?node-id=125-679&p=f&t=gx5ODSV2YgUxRT5X-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=125%3A679&show-proto-sidebar=1' },
-      { label: 'Live Demo', url: 'https://drive.google.com/drive/folders/1iv4_dO_JCdW_VNz3opPA9ciNPhs-gito?%20usp=sharing' },
+      { label: 'Live Demo', url: 'https://drive.google.com/file/d/1XFJDv_NMHE_6EvZJ9yqJJ7CAKBydyz80/view?usp=sharing' },
     ],
     problem: 'Beginners often need to navigate different information and registration steps when looking for technology training programs.',
     solution: 'A structured website that brings training information and the registration process together in one place.',
@@ -125,8 +177,8 @@ export const skills: SkillGroup[] = [
   { name: 'Web / Mobile', color: '#FFF0A8', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Laravel', 'React Native', 'REST API'] },
   { name: 'AI / Machine Learning', color: '#E9E7FF', items: ['Python', 'YOLO', 'OpenCV', 'Roboflow'] },
   { name: 'Database', color: '#F6C6D8', items: ['MySQL'] },
-  { name: 'Tools', color: '#FFF0A8', items: ['Git', 'GitHub', 'Docker', 'VS Code', 'Google Colab'] },
-  { name: 'Cloud', color: '#E9E7FF', items: ['Google Cloud Platform'] },
+  { name: 'Tools', color: '#FFF0A8', items: ['Git', 'GitHub', 'Docker', 'VS Code', 'Google Colab', 'Cisco Packet Tracer'] },
+  { name: 'Cloud & Networking', color: '#E9E7FF', items: ['Google Cloud Platform', 'Network Configuration', 'IP Addressing & Subnetting', 'OSPF', 'ACL'] },
 ]
 
 /**
